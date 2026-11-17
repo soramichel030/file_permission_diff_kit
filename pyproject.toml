@@ -1,0 +1,14 @@
+[project]
+name = "file-permission-diff-kit"
+version = "0.1.0"
+description = "Finds files whose mode or owner differ between two directory trees."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
