@@ -1,6 +1,6 @@
 [project]
 name = "file-permission-diff-kit"
-version = "0.1.1"
+version = "0.1.2"
 description = "Finds files whose mode or owner differ between two directory trees."
 requires-python = ">=3.10"
 dependencies = []
